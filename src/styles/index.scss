@@ -1,0 +1,17 @@
+// 隐藏滚动条
+::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0
+}
+
+.common-wrap {
+    max-width: 1440px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+@media screen and (width <= 767px) {
+    .common-wrap {
+        padding: 0 10px;
+    }
+}
